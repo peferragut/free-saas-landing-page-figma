@@ -54,9 +54,22 @@ button:hover {
     border: none;
 }
 
+.get-started:hover {
+    background-color: white;
+    color: black;
+}
+
 .talk-to-sales {
     border-radius: 48px;
     background-color: white;
+    transition: transform 0s;
+    transform-origin: center;
+}
+
+.talk-to-sales:hover {
+    font-weight: 700;
+    transform: scale(1.03);
+    padding: 17px 36px
 }
 
 .sec-black button {
@@ -89,12 +102,41 @@ header {
     gap: 32px;
 }
 
-#nav-list li:hover {
+.nav-item {
+    position: relative
+}
+
+.nav-item:hover {
     cursor: pointer;
+}
+
+.nav-item:before {
+    transition: all 0.3s ease-in-out 0s;
+    transform: scaleX(0);
+    position: absolute;
+    height: 1px;
+    content: "";
+    background-color: #424242;
+    width: 100%;
+    visibility: hidden;
+    bottom: 0;
+    margin:-2px 0;
+}
+
+.nav-item:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
 }
 
 header #header-btn {
     padding: 18px 23px;
+}
+
+header #header-btn:hover {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    padding: 17px 22px;
 }
 
 /* FIRST SECTION */
@@ -120,3 +162,5 @@ header #header-btn {
 #presentation .get-started {
     margin-right: 28px;
 }
+
+/*  */
