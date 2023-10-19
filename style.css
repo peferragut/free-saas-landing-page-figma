@@ -76,7 +76,7 @@ button:hover {
     border: 1px solid white;
 }
 
-/* HEADER STYLE*/
+/* HEADER STYLE */
 header {
     display: flex;
     justify-content: space-between;
@@ -163,4 +163,24 @@ header #header-btn:hover {
     margin-right: 28px;
 }
 
-/*  */
+/* CLIENTS SECTION */
+#clients {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    margin: 12px 0;
+    width: 100%;
+    border-top: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.client {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    width: 100%;
+    padding: 43px;
+    border-left: 1px solid #E5E5E5;
+}
