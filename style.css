@@ -81,6 +81,14 @@ button:hover {
     border: 1px solid white;
 }
 
+.sec-white button {
+    border: 1px solid black;
+}
+
+section .get-started {
+    margin-right: 28px;
+}
+
 /* HEADER STYLE */
 header {
     display: flex;
@@ -165,10 +173,6 @@ header #header-btn:hover {
     max-width: var(--content-max-size);
 }
 
-#presentation .get-started {
-    margin-right: 28px;
-}
-
 /* CLIENTS SECTION */
 #clients {
     display: flex;
@@ -206,4 +210,21 @@ header #header-btn:hover {
 .grid-container p {
     font-size: 14px;
     margin: 0;
+}
+
+/* GROW SECTIONS */
+.grow-content {
+    display: flex;
+    align-items: center;
+    max-width: var(--content-max-size);
+}
+
+.grow-text {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.img-left {
+    gap: 63px;
 }
