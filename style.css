@@ -32,7 +32,7 @@ h1 {
 
 .sec-black,
 .sec-white {
-    padding: 80px 144px 
+    padding: 80px 0;
 }
 
 .sec-black h1,
@@ -188,4 +188,22 @@ header #header-btn:hover {
     width: 100%;
     padding: 43px;
     border-left: 1px solid #E5E5E5;
+}
+
+/* ICONS SECTION */
+#icons-grid {
+    display: flex;
+    gap: 48px;
+    max-width: var(--content-max-size);
+}
+
+.grid-container h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.grid-container p {
+    font-size: 14px;
+    margin: 0;
 }
