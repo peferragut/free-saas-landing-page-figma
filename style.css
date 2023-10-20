@@ -228,3 +228,9 @@ header #header-btn:hover {
 .img-left {
     gap: 63px;
 }
+
+.no-img .grow-text {
+    align-items: center;
+    text-align: center;
+    padding: 0px 325px;
+}
